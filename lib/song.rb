@@ -55,6 +55,7 @@ class Song
     binding.pry
     song = self.new_by_name(song_name.gsub(".mp3", ""))
     song.artist_name = artist_name
+    song
   end
 
 end
